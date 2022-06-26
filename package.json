@@ -1,7 +1,7 @@
 {
-  "name": "hinode",
+  "name": "BlogxNode",
   "version": "1.0.0",
-  "description": "hi nodejs",
+  "description": "BlogxNode",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nchanh/HiNodeJS.git"
+    "url": "git+https://github.com/nchanh/BlogxNode.git"
   },
   "keywords": [
     "hi",
@@ -21,9 +21,9 @@
   "author": "Nguyen Chanh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nchanh/HiNodeJS/issues"
+    "url": "https://github.com/nchanh/BlogxNode/issues"
   },
-  "homepage": "https://github.com/nchanh/HiNodeJS#readme",
+  "homepage": "https://github.com/nchanh/BlogxNode#readme",
   "dependencies": {
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6"
