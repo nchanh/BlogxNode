@@ -12,6 +12,12 @@ const port = 3000;
 // Call to public folder
 app.use(express.static(__dirname + '/public'));
 
+// Middleware
+app.use(express.urlencoded({
+  extended: true
+}));
+app.use(express.json());
+
 // HTTP Logger
 app.use(morgan('combined'));
 
@@ -32,6 +38,13 @@ app.get('/news', (req, res) => {
 });
 
 app.get('/search', (req, res) => {
+  res.render('search');
+});
+
+app.post('/search', (req, res) => {
+  const body = req.body;
+  console.log(body);
+
   res.render('search');
 });
 
